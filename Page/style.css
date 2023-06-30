@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #525252d9;
+    background-blend-mode: multiply;
+    background-image: url('../imge/image\ 1.png');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-header{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    background-color: #B90470;
+}
+.container-header-page{
+    display: flex;
+    gap: 20px;
+}
+.container-header-icon{
+    display: flex;
+    gap: 20px;
+}
+.header-nav{
+    margin: auto 100px;
+}
+.header-nav-blok{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 30px;
+}
+.header-nav-blok ul{
+    display: flex;
+   
+}
+.header-nav-blok ul li{
+    padding: 0px 20px;
+    list-style: none;
+}
+.header-nav-blok ul a{
+    color: #525252;
+    text-decoration: none;
+}
+.header-nav-button button{
+    padding: 8px 30px ;
+    background-color: #B90470;
+    color: white;
+    border-color: #B90470;
+}
+.header-nav-page-text {
+    margin-top: 100px;
+    color: white;
+}
+.header-nav-page-text h1{
+    font-size: 5rem;
+}
+.header-nav-page-text h3{
+    font-size: 2rem;
+}
+.header-nav-page-text p{
+    margin: 15px 0px;
+    width: 600px;
+    max-width: 100%;
+}
+.header-nav-page-text button{
+    padding: 10px 40px;
+    border-color: #B90470;
+    background-color: #B90470;
+    color: white;
+}
+main{
+    padding: 70px;
+}
+.main-page-top{
+    display: flex;
+    justify-content: space-between;
+}
+.main-page-top-left p{
+    color: #be0574;
+}
+.main-page-top-left h1{
+    font-size: 3rem;
+}
+.main-page-top-right{
+    margin-top: 50px;
+    padding-right: 150px;
+    width: 600px;
+}
+.main-page-top-botton img{
+    margin: 70px 0px;
+    width: 100%;
+    height: 100%;
+}
+.main-page-top-botton p{
+    text-align: center;
+    margin: auto 200px;
+}
+section{
+    height: 850px;
+    padding: 40px 70px;
+}
+.section-page{
+    margin-bottom: 60px;
+
+}
+.section-page p{
+    color: #B90470;
+}
+.section-page h1{
+    font-size: 3rem;
+}
+.section-container-page-top{
+    gap: 20px;
+    display: flex;
+}
+.section-blok-1 img ,.section-blok-2 img , .section-blok-3 img ,.section-blok-4 img ,.section-blok-6 img, .section-blok-7 img,.section-blok-8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-blok-1 span , .section-blok-2 span , .section-blok-3 span ,.section-blok-4 span , .section-blok-6 span, .section-blok-7 span,.section-blok-8 span{
+    color: #B90470;
+    font-size: 20px;
+    padding: 10px;
+}
+.section-blok-1 , .section-blok-2 , .section-blok-3 , .section-blok-4 ,.section-blok-6 , .section-blok-7 ,.section-blok-8 {
+    box-shadow: 0px 0px 5px rgba(61, 60, 60, 0.422);
+    width: 300px;
+    height: 100%;
+}
+.section-blok-lorem{
+    padding:10px 10px 50px 10px;
+    background-color: white;
+    
+}
+.section-blok-2 {
+    margin-top: -40px;
+}
+.section-blok-3 {
+    margin-top: -80px;
+}
+.section-blok-4{
+    margin-top: -120px;
+}
+.section-blok-6{
+    margin-top: -40px;
+}
+.section-blok-7{
+    margin-top: -80px;
+}
+.section-blok-8{
+    margin-top: -120px;
+}
+.section-container-page-botton{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 320px;
+}
+aside{
+    background-image: url(../imge/Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.aside-container{
+    padding: 400px 70px 100px 70px;
+    
+}
+.aside-page{
+    margin-bottom: 50px;
+    color: white;
+}
+.aside-page h1{
+    font-size: 3rem;
+}
+.aside-container-page{
+    display: flex;
+    gap: 30px;
+}
+.aside-blok-page b{
+    color: #B90470;
+    font-size: 20px;
+}
+.aside-blok-page p{
+    padding-top: 10px;
+}
+.aside-blok-page{
+    padding: 70px 40px 5px 40px;
+}
+.aside-blok{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.aside-blok-img{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.content{
+    padding: 50px 70px;
+}
+.content-container-top{
+    display: flex;
+}
+.content-page p{
+    color: #B90470;
+}
+.content-page h1{
+    font-size: 3rem;
+}
+.content-text{
+    width: 500px;
+    margin-left: 200px;
+}
+.content-imge {
+    margin: 40px 0px;
+}
+.content-imge img{
+    width: 100%;
+}
+
