@@ -234,4 +234,35 @@ aside{
 .content-imge img{
     width: 100%;
 }
-
+.content-container-botton{
+    display: flex;
+}
+.container-page-booton-left p{
+    color: #B90470;
+}
+.container-page-booton-left h1{
+    font-size: 3rem;
+}
+.container-page-booton-p{
+    width: 400px;
+    margin-top: 30px;
+    color:black !important;
+}
+.container-page-booton-right{
+    background-color: w;
+    margin-left: 150px;
+    width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.313);
+}
+.container-page-booton-blok p{
+    padding: 10px 0px;
+}
+.container-page-booton-blok{
+    padding: 80px 50px;
+}
+.container-page-booton-icon{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
