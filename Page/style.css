@@ -9,9 +9,6 @@ body{
 }
 
 header{
-    background-color: #525252d9;
-    background-blend-mode: multiply;
-    background-image: url('../imge/image\ 1.png');
     width: 100%;
     height: 600px;
     background-repeat: no-repeat;
@@ -327,6 +324,25 @@ footer{
     display: flex;
     gap: 40px;
 }
+.div{
+    position: absolute;
+    width: 100%;
+    top: 0
+}
+header{
+    z-index: 10000;
+    position: relative;
+}
+.img img{
+    object-fit: cover;
+    height: 100%;
+}
+.img {
+    width: 100%;
+    height: 600px;
+}
+
+
 @media(max-width:1050px){
     .header-nav-blok ul li{
         padding: 0px 10px;
@@ -392,6 +408,7 @@ footer{
         margin-left: 50px;
     }
     .main-page-top{
+        padding-top: 40px;
         display: flex;
         flex-direction: column;
     }
@@ -479,12 +496,27 @@ footer{
     .active.header-nav-ul a{
         color: white;
     }
+    .main-page-top{
+        padding-top:40px ;
+    }
 
 }
 
 @media(max-width:568px){
     header{
         height: 100%;
+    }
+    .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .img {
+        width: 100%;
+        height: 500px;
+    }
+    .main-page-top{
+        padding-top: 80px;
     }
     .header-nav-page-text{
         padding-bottom: 50px;
