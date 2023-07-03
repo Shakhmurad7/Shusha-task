@@ -13,5 +13,6 @@
     top: 0
 }
 .container h1{
-    z-index: 10000;position: relative;
+    z-index: 10000;
+    position: relative;
 }

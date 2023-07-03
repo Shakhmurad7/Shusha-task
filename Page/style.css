@@ -107,7 +107,6 @@ main{
     height: 100%;
 }
 .main-page-top-botton p{
-    text-align: center;
     margin: auto 200px;
 }
 section{
@@ -320,7 +319,13 @@ footer{
 .header-nav-ul-menu{
     display: flex;
     align-items: center;
-
+}
+.icon-close{
+    display: none;
+}
+.footer-page-box{
+    display: flex;
+    gap: 40px;
 }
 @media(max-width:1050px){
     .header-nav-blok ul li{
@@ -334,7 +339,6 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 40px;
     }
     .section-container-page-botton{
         padding-left: 0px;
@@ -357,6 +361,9 @@ footer{
     } 
 }
 @media(max-width:900px){
+    section{
+        padding: 30px;
+    }
     .footer-page-icon{
         flex-direction: row;
         display: flex;
@@ -405,12 +412,107 @@ footer{
     .header-nav{
         margin: auto 50px;
     }
+    .aside-container-page {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 @media(max-width:700px){
     .icon-menu{
         display: inline;
     }
-    .header-nav-ul-menu ul{
-        display: none;
+    .container-header{
+        padding: 10px 30px;
+    }
+    .header-nav {
+        margin: auto 30px;
+    }
+    main , section{
+        padding: 30px; 
+    }
+    .content-container-botton{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-page-booton-right{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .footer-end{
+        font-size: 12px;
+        padding: 30px;
+    }
+    .container-page-booton-right {
+        width: 100%;
+    }
+    .main-page-top-right {
+        padding-right:0px ;
+    }
+    .active.header-nav-ul{
+        left: 0;
+         transition:all .4s ease .0s;
+    }
+    .header-nav-ul{
+       
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: -150%;
+        background-color: #525252;
+        width: 50%;
+        height:100%;
+    }
+    .icon-close{
+        margin-right: 20px;
+        margin-top:20px;
+        display: inline;
+        font-size: 25px;
+    }
+    .active.header-nav-ul ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20px;
+    }
+    .active.header-nav-ul a{
+        color: white;
+    }
+
+}
+
+@media(max-width:568px){
+    header{
+        height: 100%;
+    }
+    .header-nav-page-text{
+        padding-bottom: 50px;
+    }
+    .main-page-top-botton{
+        width: 100%;height: 100%;
+    }
+    .main-page-top-botton p{
+        margin: 0px;
+    }
+    .content {
+        padding: 20px;
+    }
+    .footer-page-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-nav-page-text h1 {
+        font-size: 2rem;
+    }
+    .header-nav-page-text h3 {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+    * p{
+        font-size: 12px;
+    }
+    .active.header-nav-ul ul{
+        margin-left: 0px;
     }
 }
